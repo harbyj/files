@@ -1,0 +1,83 @@
+/*
+Theme Name:   EK News
+Theme URI:    https://www.ekchokho.com/news
+Description:  Google Discover News Theme - All in One Premium Light Weight Design & Discover Optimized.
+Author:       Ekchokho Solutions
+Author URI:   https://www.ekchokho.com/
+Template:     generatepress
+Version:      1.0
+Requires at least: 5.2
+Tested up to: 6.4
+Requires PHP: 7.4
+Tags: Google News Discover Theme, News Website, Discover Ready, Social Share, Fixed Sticky Menu, Bottom Join, Author Bos, Category Page, Discover and Adsense Optimize News Templete
+EK News, Copyright 2024 Ekchokho Solutions
+GeneratePress is distributed under the terms of the GNU GPL
+*/a:hover{text-decoration: none;}
+/*Image Round*/
+img {border-radius: 8px;}
+::-webkit-scrollbar{width: 0px;height:1px;}
+:root {touch-action: pan-x pan-y;height: 100%}
+/*Top-Notification*/
+.hDrBTN {margin-right: 7px;gap: 8px;display: flex;flex-direction: row-reverse;align-content: center;align-items: center;padding: 1px 5px;border-radius: 8px;border: 2px solid #00d049;text-transform: capitalize;}
+/*Mobile Menu*/
+.main-navigation.has-branding .menu-toggle{padding-right: 10px !important;}
+#generate-slideout-menu .slideout-menu li {border-bottom: 1px solid #afafafb3;}
+.offside-js--is-open .slideout-overlay{background: rgba(0,0,0,.2);-webkit-backdrop-filter: saturate(180%) blur(10px);
+backdrop-filter:saturate(180%) blur(10px);}
+/* Featured widget */
+.page-header h1 {font-size: 1.5em;}
+.button, .wp-block-button .wp-block-button__link {padding: 15px 25px;}
+@media (max-width: 768px) {.post-image img {max-width: 100%;}}
+/*start of breadcrumbs*/
+.breadcrumbs{margin-top: 10px; margin-bottom: 10px;}
+p#breadcrumbs { margin: 5px; padding: 0;font-size: 15px; font-weight:bold;overflow: hidden;}
+#breadcrumbs a{color: #333;}
+.breadcrumb_last{display:none;}
+/*social-sharing-buttons*/
+.social-wrapper {margin: 10px;font-size: 0;text-align: center;display: flex;flex-wrap: wrap;}
+.social-sharing {padding: 8px; margin: 4px;border-radius: 10px;flex: 1;}
+.social-sharing-text {padding: 8px  10px 0px 0px; margin: 4px;}
+@media only screen and (max-width: 600px) {.wpjankari-social-wrapper{margin:10px 0px;}
+.social-sharing {display: inline-block; }}
+.social-sharing svg {position: relative; top: 0.15em;display: inline-block;}
+.social-facebook {fill: #fff;background-color: #005fdb;}
+.social-twitter {fill: #fff;background-color:#00014f;}
+.social-whatsapp {fill: #fff;background-color: #06ab00;}
+.social-telegram {fill: #fff;background-color:#009ceb;}
+/*Top Scroll Menu*/
+#ScrollMenu{background: #ededed!important;;display:block!important;width: 100%;height: 30px;overflow-x: scroll;overflow-y:hidden; position: fixed;z-index:10001;;}
+div#smul{width: max-content; margin-left:1%;}
+ul#menu-sticky-header-custom {text-align: right; margin: 0px;}
+ul#menu-sticky-header-custom li {list-style: none;display: inline-block;padding: 1px; margin-top:-10px;}
+ul#menu-sticky-header-custom li a {text-decoration: none;padding: 0px 6px ; color:#000;font-size:16px;font-weight:600;}
+ul#menu-sticky-header-custom li a:hover {color:darkred;}
+.avatar{border-radius:50%;}
+@media (min-width: 769px){
+.inside-right-sidebar{position: sticky;top: 85px;}}
+/*Blockquote*/
+blockquote {background: #f2f2f2;border-left: 6px solid red; padding: .5em 10px; color: darkred !important;font-size: 20px; font-weight: 600;font-style: normal !important;border-radius: 10px;box-shadow: rgba(0, 0, 0, .16) 0 1px 4px;}
+/*Bottom App Menu*/
+#BottomMenu{position:fixed;left:0;right:0;bottom:0; border-top:1px solid 1px;border-radius:12px 12px 0 0;background:white;padding:0px 10px;box-shadow:0 -10px 25px -5px rgba(0,0,0,.1);z-index:100002;padding-bottom:3px;}
+ul#bmul{margin-top: 10px;margin-left:0!important;}
+.bml a{color:#120169;font-size:12px;font-weight:500;}
+.bml a:hover{color:#0098d4}
+.bml{float: left;color:white;font-size:12px;list-style: none;text-align:center;width:20%;}
+#BottomMenu {margin-top: 0%;}
+#BottomMenu .svg-icon{display:block;fill:#01231f;margin:auto;height:22px;width:22px;padding-bottom:2px;}
+/*Join Button*/
+.ekc-card{margin-bottom:20px;position:relative;border:2px solid transparent;border-radius:5px;background:#f0f8ff;display:flex;align-items:center;padding:7px;justify-content:space-between;overflow:hidden}.whatsapp-card{animation:whatsapp-border-animation 1s infinite}@keyframes whatsapp-border-animation{0%{border-color:transparent}50%{border-color:green}100%{border-color:transparent}}.ekc-nofollow{display:inline-flex;align-items:center;justify-content:center;font-size:1rem;font-weight:700;text-decoration:none;padding:5px 10px;border-radius:20px;flex-shrink:0;transition:all .3s ease-in-out;color:#fff!important}.ekc-nofollow i{margin-right:5px}.whatsapp-card .ekc-nofollow{background:#25d366}.ekc-nofollow:hover{transform:scale(1.05)}
+/* Share*//* EKC Dynamic Social Share*/
+.float-social-wrapper {position: fixed;top: 50%;transform: translateY(-50%);z-index: 9999;right: 0;}
+.float-social-sharing {display: flex;flex-wrap: nowrap;flex-direction: column;align-items: flex-start;min-height: 30px;font-size:12px;padding: 10px 7px;}
+.float-social-sharing:first-of-type {border-top-left-radius: 10px;}
+.float-social-sharing:last-of-type {border-bottom-left-radius: 10px;}
+.social-facebook {fill: #fff;background-color: rgba(59, 89, 152, 1);}
+.social-facebook:hover {background-color: rgba(59, 89, 152, .8);}
+.social-whatsapp {fill: #fff;background-color: rgba(37, 211, 102, 1);}
+.social-whatsapp:hover {background-color: rgba(37, 211, 102, .8);}
+.allshare {fill: #fff;background-color: #9d0000;}
+.allshare:hover {background-color: rgba(157, 0, 0, .8);}
+.icon-bar{color:#c40000;font-size:10px;display:block;text-align:center}
+.blink {animation: blinker 2s linear infinite;}
+@keyframes blinker {50% {opacity:0;}}
+.footernav{background:#fff;height:55px;padding:10px 20px;display:flex;justify-content:space-between;position:fixed;bottom:0;left:0;width:100%;box-shadow:0 -4px 7px #0000001F;z-index:9999;transition:.5s}.footernav a{text-align:center;font-size:14px;padding-bottom:5px}.footernav a svg{fill:#5b5b5b}.footernav a.act svg{fill:#9d0000}.footernav a.act span{color:#9d0000}.footernav a span{display:block;font-weight:700;color:#5b5b5b}
